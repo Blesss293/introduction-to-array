@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <p id="reflections"></p>
+   <p id="neighbourhood"></p>
+   <p id="arcticmonkeys"></p>
+    <script>
+        var fruits=["apple","banana","pineapple","watermelon"];
+        document.getElementById("reflections").innerHTML="my favourite fruit is "  + fruits[3]+" and i make smoothie with " +fruits[1] + " my sister loves " +fruits[0] +" we all love " + fruits[2];
+        document.getElementById("neighbourhood").innerHTML=fruits.join("7");
+        fruits.pop();
+        document.getElementById("arcticmonkeys").innerHTML=fruits;
+        
+    </script>
+</body>
+</html>
